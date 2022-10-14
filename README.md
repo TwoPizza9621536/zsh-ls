@@ -6,18 +6,18 @@ other zsh-exa plugins.
 
 ## Usage
 
-First clone this repository into the custom plugins directory of your zsh plugin
-manager which is `$ZSH_CUSTOM`, the following is for
+First clone this repository into the custom plugins directory as `ls` of your
+zsh plugin manager which is `$ZSH_CUSTOM`, the following is for
 [Oh My Zsh](https://ohmyz.sh/) which is `~/.oh-my-zsh/custom/plugins`.
 
 ```bash
-git clone https://github.com/TwoPizza9621536/zsh-ls.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-ls
+git clone https://github.com/TwoPizza9621536/zsh-ls.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/ls
 ```
 
-Finally, add zsh-ls to the plugins array of your zshrc file:
+Finally, add ls to the plugins array of your zshrc file:
 
 ```bash
-plugins=(... zsh-ls)
+plugins=(... ls)
 ```
 
 ## License
