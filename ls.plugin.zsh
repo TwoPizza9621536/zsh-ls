@@ -1,5 +1,3 @@
-# SPDX-FileCopyrightText: 2022 Samuel Wu
-#
 # SPDX-License-Identifier: MIT
 
 export TIME_STYLE="${TIME_STYLE:-long-iso}"
